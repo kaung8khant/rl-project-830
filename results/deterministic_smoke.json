@@ -1,0 +1,20 @@
+{
+  "run": {
+    "name": "deterministic_smoke",
+    "seed": 7,
+    "lr": 0.001,
+    "best_validation_return": 8.775,
+    "checkpoint_episode": 1000,
+    "training_seconds": 1.6308248999994248,
+    "episodes_to_95pct_best": 1000,
+    "updates": 2285
+  },
+  "evaluation": {
+    "success": 1.0,
+    "total_reward": 8.775,
+    "calls": 1.0,
+    "cost": 1.0,
+    "latency": 2.25,
+    "decisions": 1.25
+  }
+}

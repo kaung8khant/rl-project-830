@@ -1,0 +1,29 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local build and verification files
+.build/
+.qa/
+.chart-data-*/
+*.log
+cli_demo_check.txt
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+
+# Temporary files and archive copies
+~$*
+*.tmp
+*.zip
+Thumbs.db
+.DS_Store
+
+# Keep checkpoints, workloads, result CSVs, and presentation files tracked.

@@ -1,0 +1,25 @@
+scenario,policy,category,success_mean,success_sd,calls_mean
+standard,DQN,Direct,0.9960000000000001,1.2412670766236366e-16,0.0
+standard,DQN,Retrieval,0.9960000000000001,1.2412670766236366e-16,1.204
+standard,DQN,Analysis,1.0,0.0,1.2127999999999999
+standard,DQN,Retrieval + analysis,0.9736,0.014310835055998667,2.4768
+standard,Rule,Direct,0.9960000000000001,1.2412670766236366e-16,0.0
+standard,Rule,Retrieval,0.9960000000000001,1.2412670766236366e-16,1.204
+standard,Rule,Analysis,1.0,0.0,1.212
+standard,Rule,Retrieval + analysis,0.9800000000000001,1.2412670766236366e-16,2.5
+standard,Random,Direct,0.5088,0.01277497553813706,2.3936
+standard,Random,Retrieval,0.8032,0.01682854717437007,1.8920000000000001
+standard,Random,Analysis,0.7824000000000002,0.01538830724933709,1.9560000000000002
+standard,Random,Retrieval + analysis,0.5688000000000001,0.009121403400793072,2.3936
+reduced_reliability,DQN,Direct,0.9960000000000001,1.2412670766236366e-16,0.0
+reduced_reliability,DQN,Retrieval,0.9800000000000001,1.2412670766236366e-16,1.328
+reduced_reliability,DQN,Analysis,0.984,0.0,1.3384000000000003
+reduced_reliability,DQN,Retrieval + analysis,0.9184000000000001,0.012521980673998831,2.8888000000000003
+reduced_reliability,Rule,Direct,0.9960000000000001,1.2412670766236366e-16,0.0
+reduced_reliability,Rule,Retrieval,0.9800000000000001,1.2412670766236366e-16,1.328
+reduced_reliability,Rule,Analysis,0.984,0.0,1.336
+reduced_reliability,Rule,Retrieval + analysis,0.924,0.0,2.932
+reduced_reliability,Random,Direct,0.488,0.017663521732655712,2.4288000000000003
+reduced_reliability,Random,Retrieval,0.7392000000000001,0.01905780679931457,1.9896
+reduced_reliability,Random,Analysis,0.764,0.028982753492378905,2.0416000000000003
+reduced_reliability,Random,Retrieval + analysis,0.4584,0.0356202189774291,2.5423999999999998

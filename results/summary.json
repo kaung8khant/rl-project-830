@@ -1,0 +1,186 @@
+{
+  "pilots": [
+    {
+      "name": "pilot_0.001",
+      "seed": 71,
+      "lr": 0.001,
+      "best_validation_return": 8.301,
+      "checkpoint_episode": 2000,
+      "training_seconds": 10.544326400151476,
+      "episodes_to_95pct_best": 500,
+      "updates": 16001
+    },
+    {
+      "name": "pilot_0.0003",
+      "seed": 71,
+      "lr": 0.0003,
+      "best_validation_return": 8.28725,
+      "checkpoint_episode": 8000,
+      "training_seconds": 10.165380700025707,
+      "episodes_to_95pct_best": 500,
+      "updates": 15499
+    }
+  ],
+  "selected_lr": 0.001,
+  "runs": [
+    {
+      "name": "dqn_11",
+      "seed": 11,
+      "lr": 0.001,
+      "best_validation_return": 8.30025,
+      "checkpoint_episode": 2000,
+      "training_seconds": 10.17166360002011,
+      "episodes_to_95pct_best": 500,
+      "updates": 15475
+    },
+    {
+      "name": "dqn_22",
+      "seed": 22,
+      "lr": 0.001,
+      "best_validation_return": 8.28725,
+      "checkpoint_episode": 2000,
+      "training_seconds": 10.103943299967796,
+      "episodes_to_95pct_best": 500,
+      "updates": 15386
+    },
+    {
+      "name": "dqn_33",
+      "seed": 33,
+      "lr": 0.001,
+      "best_validation_return": 8.28725,
+      "checkpoint_episode": 2000,
+      "training_seconds": 10.016766000073403,
+      "episodes_to_95pct_best": 500,
+      "updates": 15438
+    },
+    {
+      "name": "dqn_44",
+      "seed": 44,
+      "lr": 0.001,
+      "best_validation_return": 8.28725,
+      "checkpoint_episode": 2000,
+      "training_seconds": 10.067822400014848,
+      "episodes_to_95pct_best": 500,
+      "updates": 15426
+    },
+    {
+      "name": "dqn_55",
+      "seed": 55,
+      "lr": 0.001,
+      "best_validation_return": 8.28725,
+      "checkpoint_episode": 3500,
+      "training_seconds": 10.179874900029972,
+      "episodes_to_95pct_best": 1000,
+      "updates": 15657
+    }
+  ],
+  "aggregates": [
+    {
+      "scenario": "standard",
+      "policy": "DQN",
+      "success_mean": 0.9914,
+      "success_sd": 0.0035777087639996667,
+      "total_reward_mean": 8.331419999999998,
+      "total_reward_sd": 0.05585939491258297,
+      "calls_mean": 1.2234,
+      "calls_sd": 0.013088162590677167,
+      "cost_mean": 1.2234,
+      "cost_sd": 0.013088162590677167,
+      "latency_mean": 2.7318000000000002,
+      "latency_sd": 0.026176325181354192,
+      "decisions_mean": 1.2517999999999998,
+      "decisions_sd": 0.0643987577519939
+    },
+    {
+      "scenario": "standard",
+      "policy": "Rule",
+      "success_mean": 0.993,
+      "success_sd": 0.0,
+      "total_reward_mean": 8.356699999999998,
+      "total_reward_sd": 0.0,
+      "calls_mean": 1.229,
+      "calls_sd": 0.0,
+      "cost_mean": 1.229,
+      "cost_sd": 0.0,
+      "latency_mean": 2.743,
+      "latency_sd": 0.0,
+      "decisions_mean": 1.223,
+      "decisions_sd": 0.0
+    },
+    {
+      "scenario": "standard",
+      "policy": "Random",
+      "success_mean": 0.6658000000000002,
+      "success_sd": 0.0058051701094800024,
+      "total_reward_mean": 0.6697600000000002,
+      "total_reward_sd": 0.13980381969030747,
+      "calls_mean": 2.1588000000000003,
+      "calls_sd": 0.05403424839858506,
+      "cost_mean": 2.1588000000000003,
+      "cost_sd": 0.05403424839858506,
+      "latency_mean": 4.8744,
+      "latency_sd": 0.10896696747179824,
+      "decisions_mean": 2.1794,
+      "decisions_sd": 0.028780201528133844
+    },
+    {
+      "scenario": "reduced_reliability",
+      "policy": "DQN",
+      "success_mean": 0.9696,
+      "success_sd": 0.0031304951684997086,
+      "total_reward_mean": 7.69464,
+      "total_reward_sd": 0.03326451562851906,
+      "calls_mean": 1.3888,
+      "calls_sd": 0.024519380090043067,
+      "cost_mean": 1.3888,
+      "cost_sd": 0.024519380090043067,
+      "latency_mean": 3.0856000000000003,
+      "latency_sd": 0.049038760180086,
+      "decisions_mean": 1.3997999999999997,
+      "decisions_sd": 0.05321841786449509
+    },
+    {
+      "scenario": "reduced_reliability",
+      "policy": "Rule",
+      "success_mean": 0.9709999999999999,
+      "success_sd": 1.2412670766236366e-16,
+      "total_reward_mean": 7.7104,
+      "total_reward_sd": 0.0,
+      "calls_mean": 1.399,
+      "calls_sd": 0.0,
+      "cost_mean": 1.399,
+      "cost_sd": 0.0,
+      "latency_mean": 3.106,
+      "latency_sd": 0.0,
+      "decisions_mean": 1.376,
+      "decisions_sd": 0.0
+    },
+    {
+      "scenario": "reduced_reliability",
+      "policy": "Random",
+      "success_mean": 0.6124,
+      "success_sd": 0.00937016542009799,
+      "total_reward_mean": -0.5106999999999997,
+      "total_reward_sd": 0.20217616081031908,
+      "calls_mean": 2.2506,
+      "calls_sd": 0.03205152102475012,
+      "cost_mean": 2.2506,
+      "cost_sd": 0.03205152102475012,
+      "latency_mean": 5.081,
+      "latency_sd": 0.05937171043518939,
+      "decisions_mean": 2.2708,
+      "decisions_sd": 0.00914877040918612
+    }
+  ],
+  "targets": {
+    "success_gain_pp": 32.55999999999998,
+    "rule_success_gap_pp": 0.16000000000000458,
+    "cost_ratio": 0.9954434499593164,
+    "met": {
+      "random_gain": true,
+      "rule_gap": true,
+      "cost": true
+    }
+  },
+  "note": "SD across five trained policies on one shared 1000-task test set. Rule policy is deterministic and repeated on the same workload. This is not uncertainty across independent test workloads."
+}

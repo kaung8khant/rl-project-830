@@ -1,0 +1,331 @@
+[
+  {
+    "success": true,
+    "calls": 0,
+    "cost": 0,
+    "latency": 1.0,
+    "decisions": 1,
+    "category": 0,
+    "complexity": 2,
+    "total_reward": 9.9,
+    "task_id": 3,
+    "trace": [
+      {
+        "state": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 0,
+        "reward": 9.9,
+        "events": [
+          "Direct response succeeded"
+        ],
+        "next_state": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3333333432674408
+        ]
+      }
+    ]
+  },
+  {
+    "success": true,
+    "calls": 1,
+    "cost": 1,
+    "latency": 2.0,
+    "decisions": 1,
+    "category": 1,
+    "complexity": 2,
+    "total_reward": 8.8,
+    "task_id": 18,
+    "trace": [
+      {
+        "state": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 1,
+        "reward": 8.8,
+        "events": [
+          "SQL succeeded"
+        ],
+        "next_state": [
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.3333333432674408
+        ]
+      }
+    ]
+  },
+  {
+    "success": true,
+    "calls": 1,
+    "cost": 1,
+    "latency": 2.0,
+    "decisions": 1,
+    "category": 2,
+    "complexity": 1,
+    "total_reward": 8.8,
+    "task_id": 1,
+    "trace": [
+      {
+        "state": [
+          0.5,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 2,
+        "reward": 8.8,
+        "events": [
+          "Analysis succeeded"
+        ],
+        "next_state": [
+          0.5,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.3333333432674408
+        ]
+      }
+    ]
+  },
+  {
+    "success": true,
+    "calls": 2,
+    "cost": 2,
+    "latency": 4.0,
+    "decisions": 1,
+    "category": 3,
+    "complexity": 0,
+    "total_reward": 7.6,
+    "task_id": 5,
+    "trace": [
+      {
+        "state": [
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 3,
+        "reward": 7.6,
+        "events": [
+          "SQL succeeded",
+          "Analysis succeeded"
+        ],
+        "next_state": [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.3333333432674408
+        ]
+      }
+    ]
+  },
+  {
+    "success": true,
+    "calls": 3,
+    "cost": 3,
+    "latency": 6.0,
+    "decisions": 3,
+    "category": 3,
+    "complexity": 2,
+    "total_reward": 6.4,
+    "task_id": 7,
+    "trace": [
+      {
+        "state": [
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 1,
+        "reward": -1.2,
+        "events": [
+          "SQL succeeded"
+        ],
+        "next_state": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.3333333432674408
+        ]
+      },
+      {
+        "state": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.3333333432674408
+        ],
+        "action": 2,
+        "reward": -1.2,
+        "events": [
+          "Analysis failed"
+        ],
+        "next_state": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.5,
+          0.6666666865348816
+        ]
+      },
+      {
+        "state": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.5,
+          0.6666666865348816
+        ],
+        "action": 2,
+        "reward": 8.8,
+        "events": [
+          "Analysis succeeded"
+        ],
+        "next_state": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ]
+  },
+  {
+    "success": false,
+    "calls": 3,
+    "cost": 3,
+    "latency": 6.0,
+    "decisions": 3,
+    "category": 3,
+    "complexity": 1,
+    "total_reward": -13.6,
+    "task_id": 0,
+    "trace": [
+      {
+        "state": [
+          0.5,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "action": 1,
+        "reward": -1.2,
+        "events": [
+          "SQL succeeded"
+        ],
+        "next_state": [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.3333333432674408
+        ]
+      },
+      {
+        "state": [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.3333333432674408
+        ],
+        "action": 2,
+        "reward": -1.2,
+        "events": [
+          "Analysis failed"
+        ],
+        "next_state": [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.5,
+          0.6666666865348816
+        ]
+      },
+      {
+        "state": [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.5,
+          0.6666666865348816
+        ],
+        "action": 2,
+        "reward": -11.2,
+        "events": [
+          "Analysis failed"
+        ],
+        "next_state": [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.5,
+          1.0
+        ]
+      }
+    ]
+  }
+]
